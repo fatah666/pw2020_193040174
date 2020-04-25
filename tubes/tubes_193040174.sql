@@ -30,12 +30,12 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `alat musik` (
   `id` int(11) NOT NULL,
-  `gambar` varchar(10) NOT NULL,
-  `nama` varchar(20) NOT NULL,
-  `deskripsi` varchar(100) NOT NULL,
-  `asal_daerah` varchar(50) NOT NULL,
-  `Cara_memainkan` varchar(20) NOT NULL,
-  `harga` int(11) NOT NULL
+  `gambar` varchar(10) NULL,
+  `nama` varchar(20) NULL,
+  `deskripsi` varchar(100) NULL,
+  `asal_daerah` varchar(50) NULL,
+  `Cara_memainkan` varchar(20) NULL,
+  `harga` int(11) NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
