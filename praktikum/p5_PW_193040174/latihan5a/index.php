@@ -50,6 +50,7 @@ $result = mysqli_query($conn, "SELECT * FROM alat musik")
       <?php $i++ ?>
     <?php endwhile ?>
   </table>
+  <h5 align="center"></h5>
 </body>
 
 </html>

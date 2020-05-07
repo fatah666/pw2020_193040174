@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 17 Apr 2020 pada 18.22
+-- Waktu pembuatan: 07 Bulan Mei 2020 pada 17.07
 -- Versi server: 10.4.11-MariaDB
 -- Versi PHP: 7.4.2
 
@@ -30,12 +30,12 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `alat musik` (
   `id` int(11) NOT NULL,
-  `gambar` varchar(10) NULL,
-  `nama` varchar(20) NULL,
-  `deskripsi` varchar(100) NULL,
-  `asal_daerah` varchar(50) NULL,
-  `Cara_memainkan` varchar(20) NULL,
-  `harga` int(11) NULL
+  `gambar` varchar(10) DEFAULT NULL,
+  `nama` varchar(20) DEFAULT NULL,
+  `deskripsi` varchar(100) DEFAULT NULL,
+  `asal_daerah` varchar(50) DEFAULT NULL,
+  `Cara_memainkan` varchar(20) DEFAULT NULL,
+  `harga` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
