@@ -39,6 +39,8 @@ $alatmusik = query("SELECT * FROM alat_musik");
   <table border="1" cellpadding="10" cellspacing="0">
     <tr>
       <th>ID</th>
+      <th>EDIT</th>
+      <th>GAMBAR</th>
       <th>NAMA</th>
       <th>DESKRIPSI</th>
       <th>ASAL DAERAH</th>
