@@ -3,7 +3,7 @@
 require 'functions.php';
 
 // melakukan query
-$alatmusik = query("SELECT * FROM alat musik");
+$alatmusik = query("SELECT * FROM alat_musik");
 
 ?>
 
@@ -42,7 +42,7 @@ $alatmusik = query("SELECT * FROM alat musik");
       <th>NAMA</th>
       <th>DESKRIPSI</th>
       <th>ASAL DAERAH</th>
-      <th>CARA PEMAKAIAN</th>
+      <th>CARA MEMAINKAN</th>
       <th>HARGA</th>
     </tr>
 
@@ -59,7 +59,7 @@ $alatmusik = query("SELECT * FROM alat musik");
         <td><?= $am["nama"] ?></td>
         <td><?= $am["deskripsi"] ?></td>
         <td><?= $am["asal_daerah"] ?></td>
-        <td><?= $am["cara_pemakaian"] ?></td>
+        <td><?= $am["cara_memainkan"] ?></td>
         <td><?= $am["harga"] ?></td>
       </tr>
       <?php $i++ ?>

@@ -3,7 +3,7 @@
 require 'assets/php/function.php';
 
 // melakukan query
-$alat_musik = query("SELECT * FROM alat musik")
+$alat_musik = query("SELECT * FROM alat_musik")
 ?>
 
 

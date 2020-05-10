@@ -3,7 +3,7 @@
 function koneksi()
 {
   $conn = mysqli_connect("localhost", "root", "") or die("Koneksi ke DB Gagal");
-  mysqli_select_db($conn, "tubes_193040174") or die("Database salah!");
+  mysqli_select_db($conn, "pw_193040174") or die("Database salah!");
 
   return $conn;
 }
@@ -30,14 +30,14 @@ function tambah($data)
   $nama = htmlspecialchars($data['nama']);
   $deskripsi = htmlspecialchars($data['deskripsi']);
   $asaldaerah = htmlspecialchars($data['asal_daerah']);
-  $carapemakaian = htmlspecialchars($data['cara_pemakaian']);
+  $caramemainkan = htmlspecialchars($data['cara_memainkan']);
   $harga = htmlspecialchars($data['harga']);
 
 
   $query = "INSERT INTO
-              alat musik
+              alat_musik
             VALUES
-            ('', '$gambar', '$nama', '$deskripsi', '$asaldaerah', '$carapemakaian', '$harga');
+            ('', '$gambar', '$nama', '$deskripsi', '$asaldaerah', '$caramemainkan', '$harga');
   
   ";
   mysqli_query($conn, $query);

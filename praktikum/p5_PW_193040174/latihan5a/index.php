@@ -3,10 +3,10 @@
 $conn = mysqli_connect("localhost", "root", "") or die("koneksi ke DB gagal");
 
 // Memilih database
-mysqli_select_db($conn, "tubes_193040174") or die("Dtabase salah!");
+mysqli_select_db($conn, "PW_193040174") or die("Dtabase salah!");
 
 // query mengambbil objek dari tabel didalam database
-$result = mysqli_query($conn, "SELECT * FROM alat musik")
+$result = mysqli_query($conn, "SELECT * FROM alat_musik")
 ?>
 
 

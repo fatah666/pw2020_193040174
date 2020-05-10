@@ -11,7 +11,7 @@ require 'function.php';
 $harga = $_GET["harga"];
 
 // melakukan query dengan parameter id yang diambil dari url
-$alat_musik = query("SELECT * FROM alat musik WHERE harga = $harga")[0];
+$alat_musik = query("SELECT * FROM alat_musik WHERE harga = $harga")[0];
 ?>
 
 <!DOCTYPE html>
@@ -34,7 +34,7 @@ $alat_musik = query("SELECT * FROM alat musik WHERE harga = $harga")[0];
       <p><?= $alat_musik["nama"]; ?></p>
       <p><?= $alat_musik["deskripsi"]; ?></p>
       <p><?= $alat_musik["asal_daerah"]; ?></p>
-      <p><?= $alat_musik["cara_pemakaian"]; ?></p>
+      <p><?= $alat_musik["cara_memainkan"]; ?></p>
     </div>
 
     <button class="tombol-kembali"><a href="../index.php">Kembali</a></button>

@@ -12,7 +12,7 @@ require 'functions.php';
 $id = $_GET['id'];
 
 // Melakukan query dengan parameter id yang diambil dari url
-$buku = query("SELECT * FROM alat musik WHERE id = $id")[0];
+$alatmusik = query("SELECT * FROM alat_musik WHERE id = $id")[0];
 ?>
 
 <!DOCTYPE html>

@@ -2,7 +2,7 @@
 require 'functions.php';
 
 $id = $_GET['id'];
-$am = query("SELECT * FROM alat musik WHERE id = $id")[0];
+$am = query("SELECT * FROM alat_musik WHERE id = $id")[0];
 
 // cek apakah tombol ubah sudah ditekan
 if (isset($_POST['ubah'])) {
@@ -51,8 +51,8 @@ if (isset($_POST['ubah'])) {
         <input type="text" name="asal_daerah" id="asal_daerah" required><br><br>
       </li>
       <li>
-        <label for="cara_pemakaian">Cara Pemakaian</label><br>
-        <input type="text" name="cara_pemakaian" id="cara_pemakaian" required><br><br>
+        <label for="cara_memainkan">Cara Pemakaian</label><br>
+        <input type="text" name="cara_memainkan" id="cara_memainkan" required><br><br>
       </li>
       <li>
         <label for="harga">Harga</label><br>

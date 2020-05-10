@@ -1,0 +1,23 @@
+body {
+  background-color: rgb(58, 70, 75);
+}
+table{
+  background-color: white;
+  border : 2px solid black;
+  text-align : center;
+  font-size : 40 px;
+}
+td {
+  font-size: 18px;
+  padding : 60px;
+}
+th {
+  font-size: 30px;
+}
+
+h3{
+  color: black;
+  text-align : center;
+  font-size : 60px;
+  
+}

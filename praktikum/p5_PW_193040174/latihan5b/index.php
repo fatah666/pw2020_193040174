@@ -3,7 +3,7 @@
 require 'assets/php/function.php';
 
 // melakukan query
-$alat_musik = query("SELECT * FROM alat musik")
+$alat_musik = query("SELECT * FROM alat_musik")
 ?>
 
 
@@ -40,7 +40,7 @@ $alat_musik = query("SELECT * FROM alat musik")
         <td><?= $am["nama"] ?></td>
         <td><?= $am["deskripsi"] ?></td>
         <td><?= $am["asal_daerah"] ?></td>
-        <td><?= $am["cara_pemakaian"] ?></td>
+        <td><?= $am["cara_memainkan"] ?></td>
         <td><?= $am["harga"] ?></td>
       </tr>
       <?php $i++ ?>
