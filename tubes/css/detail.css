@@ -1,0 +1,52 @@
+
+/* NAVBAR */
+.navbar-brand {
+	font-family: 'lucida Sans';
+	font-size: 32px;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  margin-right: 20px;
+  font-weight: 500;
+}
+
+/* Utility */
+.card h1 {
+  font-family: sans-serif;
+}
+
+.card p {
+  font-family: sans-serif;
+}
+
+.card-details {
+  padding: 25px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
+  background-color: rgb(82, 80, 87);
+}
+
+.card-right {
+  background-color: rgb(82, 80, 87);
+  box-shadow: 0 0 2px 2px rgba(97, 92, 112, 0.2);
+}
+
+.display img {
+  width: 150px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, .2);
+}
+
+.buy {
+  text-transform: uppercase;
+}
+
+.buy .btn{
+  width: 350px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+
+/* FOOTER */
+#footer {
+  margin-top: 100px;
+}

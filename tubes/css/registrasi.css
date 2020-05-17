@@ -1,0 +1,25 @@
+
+/* NAVBAR */
+.navbar-brand {
+	font-family: 'lucida Sans';
+	font-size: 32px;
+}
+
+
+.nav-link {
+  text-transform: uppercase;
+  margin-right: 20px;
+  font-weight: 500;
+}
+
+#register {
+  margin-top: 50px;
+}
+
+#footer {
+  margin-top: 100px;
+}
+
+.card {
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, .2);
+}

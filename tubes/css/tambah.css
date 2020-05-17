@@ -1,0 +1,33 @@
+/* NAVBAR */
+.navbar {
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, .3);
+}
+.navbar-brand {
+	font-family: Viga-Regular;
+  font-size: 32px;
+}
+
+#tambah {
+  margin-top: 80px;
+  padding-bottom: 50px;
+}
+
+.card {
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, .2);
+}
+
+.img-preview {
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, .1);
+  display: block;
+  margin-top: 20px;
+}
+
+.back {
+  margin-left: 10px;
+}
+
+.col-form-label {
+  text-align: left;
+  padding-left: 90px;
+  font-weight: 500;
+}

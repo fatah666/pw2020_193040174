@@ -35,7 +35,7 @@ function tambah($data)
 
 
   $query = "INSERT INTO
-              alat musik
+              alat_musik
             VALUES
             ('', '$gambar', '$nama', '$deskripsi', '$asaldaerah', '$caramemainkan', '$harga');
   
@@ -67,7 +67,7 @@ function ubah($data)
 
 
   $query = "UPDATE
-              alat musik
+              alat_musik
             SET
             gambar = '$gambar',
 						nama = '$nama',
